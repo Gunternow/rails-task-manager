@@ -1,0 +1,5 @@
+<ol>
+  <% @tasks.each do |task| %>
+    <li><%= task.title.capitalize %> in the <%= task.details %></li>
+  <% end %>
+</ol>
